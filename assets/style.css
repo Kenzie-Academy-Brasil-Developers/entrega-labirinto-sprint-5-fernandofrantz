@@ -1,0 +1,39 @@
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+}
+#linha{
+    width: 420px;
+    height: 20px;
+
+}
+#linha{
+    display: flex;
+}
+.W, .E {
+    width: 20px;
+}
+#S, #F{
+    width: 20px;
+}
+.W{
+    color: tomato;
+    background-color: tomato;
+}
+.E{
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+#S{
+    background-color: turquoise;
+}
+#F{
+    background-color: blue;
+}
+.character{
+    width: 20px;
+    color: green;
+    background-color: green;
+
+}
