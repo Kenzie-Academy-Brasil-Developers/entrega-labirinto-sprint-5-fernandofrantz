@@ -14,7 +14,7 @@
 .W, .E {
     width: 20px;
 }
-#S, #F{
+#S, .F{
     width: 20px;
 }
 .W{
@@ -28,7 +28,7 @@
 #S{
     background-color: turquoise;
 }
-#F{
+.F{
     background-color: blue;
 }
 .character{
@@ -36,4 +36,7 @@
     color: green;
     background-color: green;
 
+}
+span{
+    color: black;
 }
