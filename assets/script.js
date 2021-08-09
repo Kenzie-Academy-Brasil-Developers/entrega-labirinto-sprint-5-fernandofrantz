@@ -30,10 +30,8 @@ function divLinha(){
             
             if (map[index][counter] == "S"){
                 divNova.setAttribute("id", 'S');
-                let personagem = document.createElement('span');
+                let personagem = document.createElement('div');
                 personagem.setAttribute('id', 'perso');
-                let novoTexto = document.createTextNode('.')
-                personagem.append(novoTexto);
                 divNova.appendChild(personagem);
             }
             else if (map[index][counter] == "F"){
@@ -107,9 +105,11 @@ document.addEventListener('keydown', (event) => {
     }
     else if (keyName === 'ArrowRight' && quemTaDireita().classList.contains('F')){
         direita.appendChild(s);
-        alert('VOCÊ VENCEU!!!!');
+        let victoria = document.getElementById('vitoria');
+        victoria.classList.remove('vic');
+        victoria.classList.add('final');
     }
     else if (keyName === 'ArrowRight' || keyName === 'ArrowLeft' || keyName === 'ArrowUp' || keyName === 'ArrowDown'){
-        alert("Youn cannot move in this direction!");
+
     }
 });
