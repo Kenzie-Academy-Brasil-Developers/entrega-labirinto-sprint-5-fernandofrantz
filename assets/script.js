@@ -32,7 +32,7 @@ function divLinha(){
                 divNova.setAttribute("id", 'S');
                 let personagem = document.createElement('span');
                 personagem.setAttribute('id', 'perso');
-                let novoTexto = document.createTextNode('P')
+                let novoTexto = document.createTextNode('.')
                 personagem.append(novoTexto);
                 divNova.appendChild(personagem);
             }

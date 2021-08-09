@@ -1,25 +1,25 @@
 #principal{
     display: flex;
     flex-wrap: wrap;
-    width: 420px;
+    width: 380px;
 }
 #linha{
-    width: 420px;
-    height: 20px;
+    width: 380px;
+    height: 18.090px;
 
 }
 #linha{
     display: flex;
 }
 .W, .E {
-    width: 20px;
+    width: 18.09px;
 }
 #S, .F{
-    width: 20px;
+    width: 18.09px;
 }
 .W{
-    color: tomato;
-    background-color: tomato;
+    background-image: url(./img/mario\ \(2\).png);
+    background-size: 35px;
 }
 .E{
     color: whitesmoke;
@@ -37,6 +37,21 @@
     background-color: green;
 
 }
-span{
-    color: black;
+#perso{
+    font-size: 100px;
+    background-image: url(./img/mario\ \(1\).png);
+    background-size: 20px;
+}
+#fundo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./img/images.jpeg);
+    background-size: 100%;
+    height: 271.9px;
+    border: solid black 20px;
+    padding: 100px;
+}
+main{
+    height: 271px;
 }
