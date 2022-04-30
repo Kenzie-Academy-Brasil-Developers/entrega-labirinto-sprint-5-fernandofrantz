@@ -1,0 +1,81 @@
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+}
+#linha{
+    width: 380px;
+    height: 18.090px;
+
+}
+#linha{
+    display: flex;
+}
+.W, .E {
+    width: 18.09px;
+}
+#S, .F{
+    width: 18.09px;
+}
+.W{
+    background-image: url(./img/mario\ \(2\).png);
+    background-size: 35px;
+}
+.E{
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+#S{
+    background-color: turquoise;
+}
+.F{
+    background-color: blue;
+}
+.character{
+    width: 20px;
+    color: green;
+    background-color: green;
+
+}
+#perso{
+    width: 18.09px;
+    height: 18.09px;
+    background-image: url(./img/mario\ \(1\).png);
+    background-size: 20px;
+}
+#fundo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(./img/images.jpeg);
+    background-size: 100%;
+    height: 271.9px;
+    border: solid black 20px;
+    padding: 100px;
+}
+main{
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.vic{
+    display: none;
+
+}
+.final{
+    display: block;
+}
+input{
+    width: 100px;
+    position: relative;
+    bottom: -5px;
+    background-color: rgb(148, 148, 255);
+    border-radius: 10px;
+    border-style: none;
+    color: whitesmoke;
+    box-shadow: 4px 4px 10px 5px gray;
+}
